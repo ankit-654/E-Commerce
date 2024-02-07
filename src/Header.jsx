@@ -35,7 +35,7 @@ export default function Header(){
                 </div>
                 </div>
               </a>
-              <a>Best Deals</a>
+              <a href='/basketproduct'>CART</a>
           </div>
       {/* //3     */}
           <div className='searchbar'>
