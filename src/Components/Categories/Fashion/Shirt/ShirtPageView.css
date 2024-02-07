@@ -1,0 +1,81 @@
+.item-grid-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    margin: 20px;
+}
+.item-grid-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-grid-1-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/47/14/92/1000_F_247149235_M8XkWorUsO7d72WHNPafwzGYUeI3eGCr.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.item-grid-1-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+}
+.category-item-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 213);
+    margin: 20px;
+    height: 50px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    color: rgb(0, 0, 0)  ;
+}
+.item-grid-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    margin: 20px;
+}
+.item-grid-2-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+
+}
+.item-grid-2-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url("https://img.freepik.com/premium-photo/hanging-jean-shirt-with-wood-hanger-wall_1339-161476.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    align-items: center;
+}

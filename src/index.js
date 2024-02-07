@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import RoutePage from './RoutePage';
+import Card from './HomeCard';
+import CategoryCardUI from './Components/Categories/CategoryCard/CategoryCardUI';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RoutePage/>
+    {/* <CategoryCardUI/> */}
   </React.StrictMode>
 );
 

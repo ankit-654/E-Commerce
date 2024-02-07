@@ -1,0 +1,90 @@
+.clothing-header{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.fashion-container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:10% 22% 22% 22% 22%;
+}
+.gd-header-rotate{
+    transform: rotate(-90deg);
+    letter-spacing: 5px;
+    font-size: 30px;
+    /* height: 350px; */
+}
+.gd-header{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 239, 239);
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-out;
+    border: none;
+}
+.grid-container:hover{
+    transform: scale(1.1);
+    /* box-shadow: 1px 1px 1px 1px rgb(213, 213, 213); */
+}
+.gd-1{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 100%;
+    /* border: .2px solid red; */
+    background-color: #f4f3f3;
+    /* background-image: url("https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8586991/2019/1/22/69ddf372-6f55-4439-b687-9520baca76421548149771255-na-3591548149769797-1.jpg"); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+}
+.gd-1 img{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:240px;
+    width: auto;
+}
+.gd-1 button{
+    /* align-items: center; */
+    margin: 5px;
+    height: 30px;
+    width: 95px;
+    border: none;
+    background: white;
+    letter-spacing: 2px;
+    color: black; 
+    text-decoration: none;
+}
+.gd-1 button a{
+    text-decoration: none;
+    /* color: black ; */
+}
+/* .gd-1 button a:hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.gd-1 button:hover{
+    background-color: #0c0101;
+    color: white;
+}
+.footwear-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 194, 194);
+    margin: 30px;
+    height: 60px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    opacity: .8;
+}

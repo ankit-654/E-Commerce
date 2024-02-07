@@ -1,0 +1,80 @@
+
+.card{
+    height: 18rem;
+    width: 80%;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 243, 243);
+    transition: .3s ease;
+}
+.card:hover{
+    transform:scale(1.05) ;
+    box-shadow: 1px 1px 4px 2px rgb(228, 227, 227);
+
+}
+.overflow{
+    overflow: hidden;
+    height: 130px;
+    width: 100%;
+   
+}
+.card-img-top{
+    
+    transition: 1s ease;
+    height: 100%;
+    width: 100%;
+    /* background-size: 100% 100%; */
+}
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+.card-text{
+    margin: 5px;
+}
+.card-text p{
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+.card-text span{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+.card-text p span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: rgb(15, 2, 2);
+}
+.card-Add-btn{
+    height: 27px;
+    width: 80%;
+    margin: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    font: 300;
+}
+.card-Add-btn:hover{
+   background-color: rgb(58, 223, 58);
+   color: white;
+}
+.card-view-btn{
+    text-align: center;
+    border: none;
+    height: 27px;
+    width: 20%;
+    margin: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    /* border-radius: 10px; */
+    letter-spacing: 1px;   
+}
+.card-view-btn:hover{
+    background-color: rgb(58, 223, 58);
+    color: white;
+}
