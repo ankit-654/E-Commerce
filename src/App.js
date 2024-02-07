@@ -43,6 +43,7 @@ function App() {
             </div>
       </div> */}
       {/* // Banner 2 */}
+      <h1>hey</h1>
       <div className='Ad-banner-2'>
         <div className='Ad-banner-2-flex'>
           <div className='Ad-banner-2-gd-1'>
